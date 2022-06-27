@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_review"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="#F7F9FB"
+    android:orientation="vertical"
+    android:padding="20dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:gravity="start|center">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/profile" />
+
+                <TextView
+                    android:id="@+id/nama_reviewer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Alexia Narendra"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|end"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/rating_review"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center"
+                    android:text="4.0"
+                    android:textColor="#000"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="end"
+                    android:padding="5dp"
+                    android:src="@drawable/star_rate" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/komentar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_regular"
+            android:padding="10dp"
+            android:text="lorem"
+            android:textColor="#000" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

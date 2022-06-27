@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/br_100.xml" value="0.1285" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/cs.xml" value="0.1285" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/history.xml" value="0.1" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/ic_search.xml" value="0.1265" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/lock.xml" value="0.1285" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/logout.xml" value="0.1285" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/pen.xml" value="0.1285" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/profile.xml" value="0.1285" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/star_rate.xml" value="0.1285" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/status.xml" value="0.1" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/font/playfair_display_bold_italic.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_customer_service.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_dashboard.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_detail_buku.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_edit_user.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_ganti_password.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_lupa_password.xml" value="0.22" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_register.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_splash_screen.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/cs_dialog.xml" value="0.1625" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/fragment_edit_user.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/fragment_menu_utama.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/fragment_pencarian.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/fragment_profil.xml" value="0.22" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/fragment_riwayat.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/template_rv_buku.xml" value="0.2844311377245509" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/template_rv_buku1.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/template_rv_menu_utama.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/template_rv_pencarian.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/template_rv_review.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/template_rv_riwayat.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/layout/tes.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/ricki/AndroidStudioProjects/ELibrary/app/src/main/res/menu/bottom_navigation_items.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

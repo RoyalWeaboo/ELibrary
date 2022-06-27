@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentPencarian"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rc_name"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:cardBackgroundColor="#F7F9FB"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="340dp"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:background="@color/white"
+                android:layout_marginStart="4dp"
+                android:id="@+id/et_judul"
+                android:hint="Cari Buku"/>
+
+            <ImageButton
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_width="wrap_content"
+                android:id="@+id/btn_cari"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:src="@drawable/ic_search"/>
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_regular"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:text="Hasil Pencarian : "
+        android:textSize="20sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rv_pencarian"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

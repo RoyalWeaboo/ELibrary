@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "53998099254",
+    "project_id": "elibraryproject-e76e3",
+    "storage_bucket": "elibraryproject-e76e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53998099254:android:802ae2ed6ebab5e74ef197",
+        "android_client_info": {
+          "package_name": "com.malikazizali.e_library"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53998099254-a8a6o3m2lu8bnqqdmqagaehhjv9jgqst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3GPkNuq-ZJ38bii9pStezxzY0L8Nmzq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53998099254-a8a6o3m2lu8bnqqdmqagaehhjv9jgqst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

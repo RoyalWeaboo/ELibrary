@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/icon_app" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/playfairdisplay_semibolditalic"
+                android:text="Daftar"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_regular"
+                android:text="Mohon untuk memasukan data diri anda dibawah ini"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/form"
+                android:elevation="4dp"
+                android:ems="10"
+                android:hint="Nama"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textColorHint="#808080"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/form"
+                android:elevation="4dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textColorHint="#808080"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/telp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/form"
+                android:elevation="4dp"
+                android:ems="10"
+                android:hint="Nomor Telpon"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textColorHint="#808080"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/form"
+                android:elevation="4dp"
+                android:ems="10"
+                android:hint="Alamat Lengkap"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textColorHint="#808080"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/form"
+                android:elevation="4dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textColorHint="#808080"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/konfirmasi_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/form"
+                android:elevation="4dp"
+                android:ems="10"
+                android:hint="Konfirmasi Password"
+                android:inputType="textPassword"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textColorHint="#808080"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_regular"
+                android:text="Dengan menekan tombol Daftar, anda sudah mengakui bahwa data yang anda masukan adalah benar sesuai kenyataan."
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/register_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/bg_btn"
+                android:text="Daftar"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:text="   Sudah punya akun?"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:text=" Login"
+                    android:textColor="@color/biru_primary"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_dropdown_light_frame"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

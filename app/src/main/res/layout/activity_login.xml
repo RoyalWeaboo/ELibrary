@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/icon_app" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/playfairdisplay_semibolditalic"
+            android:text="Login"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_regular"
+            android:text="Mohon masukkan email dan password anda"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/form"
+            android:elevation="4dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/form"
+            android:elevation="4dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/lupa_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inter_regular"
+            android:text="   Lupa password?"
+            android:textColor="@color/biru_primary"
+            android:textSize="12sp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/bg_btn"
+            android:text="Masuk"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_regular"
+                android:text="   Belum punya akun?"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_regular"
+                android:text=" Daftar Sekarang"
+                android:textColor="@color/biru_primary"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBarLogin"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:padding="8dp"
+        android:layout_marginBottom="144dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
